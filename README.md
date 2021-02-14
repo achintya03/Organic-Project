@@ -1,3 +1,23 @@
+## Getting Started
+
+To run this project clone and do npm install
+
+## About the App
+
+Application displays a homepage which has available beer which you can add to your cart, upon adding go to cart and there you can see your beers being added to cart.
+The application is using an open-source API : https://punkapi.com/documentation/v2
+This is a minimal viable website to demostrate the features like fetching data from API in cart, Populating of data, Pagination for website, Add to Cart functionality.
+This is React based website completely designed with hooks and fetch API of react.
+There is no Authentication and button of Login and SignUp are just there for presentation but are not functioning and clickable.
+
+The Application is responsive and was made up with Mobile-First Website strategy.
+
+Enjoy...
+
+### API used
+
+https://punkapi.com/documentation/v2
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
