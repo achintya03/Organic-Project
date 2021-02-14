@@ -1,0 +1,21 @@
+.cart{
+    text-align: center;
+    min-height: 80vh;
+}
+.cart .cart-heading{
+    font-size: 1.5rem;
+    color :#813e11;
+}
+.cart .cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart .cart-total{
+    border:1px solid green;
+    background-color: #25c925;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius:0.5rem;
+    font-size: 1.1rem;
+}

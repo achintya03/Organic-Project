@@ -1,0 +1,15 @@
+.layout{
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(45deg,#f8ad21,#ffd000);
+    /* opacity: 0.8; */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.layout .spacer{
+    flex: 1;
+}
+

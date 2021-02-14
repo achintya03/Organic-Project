@@ -1,0 +1,88 @@
+.card{
+    width : 22rem;
+    height: 10.5rem;
+    /* border: 1px solid black; */
+    box-shadow: 1px 2px 2px gray;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    background-color: #fdfdd8;
+    position: relative;
+    /* text-align: center; */
+}
+.card .card-title{
+    font-weight: 700;
+    margin:0.5rem 0 0 0  ;
+    padding: 4px;
+    /* border:1px solid black; */
+}
+.card .card-body{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid green; */
+}
+.card .card-body .card-img-container{
+    width: 4rem;
+    text-align: center;
+    padding: 0.75rem;
+    /* border: 1px solid red; */
+}
+.card .card-body .card-img{
+    height:100%;
+}
+.card .card-body .card-content{
+    /* border: 1px solid black; */
+    width: 14rem;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+.card .card-body .card-content .tagline{
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #6e6e6e;
+    margin: 0 0.5rem;
+}
+.card .card-body .card-content> p{
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: gray;
+}
+.card .card-body .card-content .card-price{
+    position:absolute;
+    width: 100%;
+    bottom: 0.5rem;
+    /* border: 1px solid red; */
+}
+.card .card-body .card-content .card-price p{
+    color: #7e4612;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0.3rem;
+}
+
+
+
+@media(min-width:400px){
+    .card{
+        box-shadow: none;
+        margin: 0.5rem;
+        opacity: 0.9;
+        border: 1px solid #f7dd87;
+    }
+    .card:hover{
+        box-shadow: 1px 2px 2px gray;
+        opacity: 1;
+        /* transform: scale(1.1); */
+        /* cursor: pointer; */
+    }
+    .card .card-body .card-content{
+        /* border: 1px solid black; */
+        width: 15rem;
+    }
+}

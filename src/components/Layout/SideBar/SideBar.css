@@ -1,0 +1,28 @@
+.sideBar{
+    border:1px solid green;
+    height: 100vh;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top : 0;
+    right: 0;
+    z-index: 600;
+    background-color: #dadada;
+    color:#7e4612;
+    transform: translateX(20rem);
+    /* display: none; */
+    /* transform: translateX(20rem); */
+}
+.sideBar a {
+    text-decoration: none;
+    font-size: 2.1rem;
+    font-weight: bolder;
+    color:#7e4612;
+    margin: 1rem;
+}
+.open{
+    transform: translateX(-0rem);
+    transition: transform 0.5s ease-out;
+}

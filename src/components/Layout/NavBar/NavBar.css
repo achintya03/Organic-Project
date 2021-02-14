@@ -1,0 +1,37 @@
+.navBar{
+    display: flex;
+    height: 4rem;
+}
+.navBar a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* color: #7e4612; */
+    margin: 1rem;
+}
+
+.navBar .cart-icon{
+    height: 1.5rem;
+    width: 5rem;
+    box-sizing: content-box;
+    }
+
+.navBar .cart-icon img{
+    height: 2rem;
+    width: 2.5rem;
+    position: relative;
+    padding-bottom: 3.5rem;
+}
+
+.navBar .cart-icon .line-2{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+@media(max-width:768px){
+    .navBar{
+        display: none;
+    }
+}

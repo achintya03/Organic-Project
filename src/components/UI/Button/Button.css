@@ -1,0 +1,25 @@
+.btn{
+    color: #111;
+    font-weight: 700;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.25rem;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    border-radius: 3px;
+}
+#addToCart{
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    border-color: #a88734 #9c7e31 #846a29;
+  }
+  #addToCart:hover{
+      background: linear-gradient(to bottom,#f3e2ba,#e0bf69);
+      color: rgba(0,0,0,0.75);
+  }
+  #moreInfo{
+    background: linear-gradient(to bottom,#a5d2f7,#4b92f7);
+    border-color: #346aa8 #316c9c #294d84;
+  }
+  #moreInfo:hover{
+      background: linear-gradient(to bottom,#b1d9fa,#3783ec);
+  }  
